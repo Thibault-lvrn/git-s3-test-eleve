@@ -1,0 +1,14 @@
+
+label{
+    height: 30px;
+    width: 30px;
+    background-color: antiquewhite;
+}
+
+.menu{
+    visibility: hidden;
+}
+
+#ch_menu:checked+.menu{
+    visibility: visible;
+}
